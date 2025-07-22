@@ -20,10 +20,17 @@
           <li><a href="blog.html">Blog</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
+          <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
           <li>
-            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a id="lg-bag" href="cart.html"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
           </li>
         </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
       </div>
     </section>
 
@@ -67,7 +74,11 @@
       <p>Summer Collection New Modern Design</p>
       <div class="pro-container">
         <div class="pro">
-          <img src="img/products/f1.jpg" alt="" />
+          <img
+            src="img/products/f1.jpg"
+            alt=""
+            onclick="window.location.href='sproduct.html'"
+          />
           <div class="des">
             <span>Adidas</span>
             <h5>Cartoon Astronaut T-Shirts</h5>
@@ -429,5 +440,7 @@
     <div class="copyright">
       <p>2025, Tech2 etc - HTML CSS Ecommerce Template</p>
     </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
